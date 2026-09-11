@@ -15,6 +15,6 @@ public class ExecTimer {
     }
 
     public double calcExecTime() {
-        return (endTime - startTime) * 10e-9;
+        return (endTime - startTime) * 1.0e-9;
     }
 }
