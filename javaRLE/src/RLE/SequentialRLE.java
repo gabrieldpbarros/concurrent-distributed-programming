@@ -4,6 +4,7 @@ import interfaces.IRLE;
 public class SequentialRLE implements IRLE {
     private int i;
     private int stringSize;
+    private String result;
 
     public SequentialRLE() {}
 
@@ -17,6 +18,7 @@ public class SequentialRLE implements IRLE {
         return count;
     }
 
+    @Override
     public String calcRLE(String input) {
         StringBuilder output = new StringBuilder();
 
@@ -29,5 +31,10 @@ public class SequentialRLE implements IRLE {
         }
 
         return output.toString();
+    }
+
+    @Override
+    public String getResult() {
+        return this.result;
     }
 }

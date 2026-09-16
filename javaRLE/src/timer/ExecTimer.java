@@ -1,8 +1,8 @@
 package timer;
 
 public class ExecTimer {
-    private long startTime;
-    private long endTime;
+    private long startTime = 0;
+    private long endTime = 0;
 
     public ExecTimer() {}
 
