@@ -3,3 +3,7 @@
 # binarios
 **/bin/*
 !**/bin/.gitkeep
+
+# materiais de aula
+bibliography/*
+material/*
