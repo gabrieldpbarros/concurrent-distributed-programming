@@ -4,6 +4,12 @@
 **/bin/*
 !**/bin/.gitkeep
 
+# arquivos de I/O
+**/input/*
+!**/input/.gitkeep
+**/output/*
+!**/output/.gitkeep
+
 # materiais de aula
 bibliography/*
 material/*
